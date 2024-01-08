@@ -17,10 +17,11 @@
 .more-info-link {
   font-family: fantasy, cursive;
 }
-/* TODO: 3.5. Indentation in blocks */
+
 @media (max-width: 768px) {
-  .hero-container { text-align: center;
-}
+  .hero-container { 
+    text-align: center;
+  }
 }
 .main-content-container {
   display: block;
