@@ -33,7 +33,7 @@ var createNewTaskElement = function (taskString) {
   listItem.className = 'task-item';
 
   label.innerText = taskString;
-  label.className = 'task task-tytle';
+  label.className = 'task task-title';
 
   //Each elements, needs appending
   checkBox.type = 'checkbox';
@@ -96,6 +96,7 @@ var editTask = function () {
 
   //toggle .editmode on the parent.
   listItem.classList.toggle('edit-mode');
+
 };
 
 //Delete task.
