@@ -14,18 +14,18 @@
     >
   </head>
   <body class="body"> <!-- TODO: add tag <h1> and <h2> invisible -->
-    <div class="hero-container"> <!-- TODO: replace tag <div> to tag <section> -->
+    <section class="hero-container">
       <img class="hero-image" src="./eisenhower-matrix.jpg">
       <a class="more-info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main-content-container"> <!-- TODO: replace tag <div> to tag <section>-->
-      <p class="add-task-container" id="topSectionForAddingElementToList"> <!-- TODO: replace tag <p> to tag <div> -->
+    </section>
+    <section class="main-content-container">
+      <div class="add-task-container" id="topSectionForAddingElementToList">
         <label class="tytle" for="new-task">Add Item</label> 
         <div class="task-row-container">
           <input id="new-task" class="task" type="text">
           <button class="button">Add</button>
         </div> 
-      </p>
+      </div>
       <h3 class="tytle">Todo</h3>
       <ul class="task-list" id="incomplete-tasks">
         <li class="task-item">
@@ -59,7 +59,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
